@@ -7,8 +7,7 @@ module.exports = {
         app: [
             'webpack-dev-server/client?http://127.0.0.1:8081/',
             'webpack/hot/only-dev-server',
-            './src/modules/main/module.js',
-            "./src/index.jade"
+            './src/modules/main/module.js'
         ]
     },
 

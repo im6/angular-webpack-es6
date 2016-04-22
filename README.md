@@ -4,3 +4,5 @@ This is the seed project for the angular 1.x written by es6 and bundled by webpa
 3, webpack, followed by some necessary loaders
 4, es6
 5, less
+6, jade
+7, angular-material UI template
