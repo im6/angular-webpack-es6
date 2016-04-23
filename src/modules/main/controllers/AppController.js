@@ -1,5 +1,5 @@
 
-export default ['$scope','MainService', ($scope, MainService) =>{
+export default ['$scope','Main1Service', ($scope, Main1Service) =>{
     $scope.name = "world123";
-    MainService.do1();
+    Main1Service.do1();
 }];
