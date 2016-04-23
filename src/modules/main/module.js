@@ -15,6 +15,7 @@ import ngMaterial from 'angular-material';
 
 import state from './config/state';
 import ctr from './controllers/AppController';
+import MainService from './services/MainService';
 
 //================= Main Component definition END
 
@@ -23,5 +24,6 @@ export default angular.module(AppName, [
     ngMaterial
 ])
     .config(state)
+    .service('MainService', MainService)
     .controller("AppController", ctr)
     .name;
