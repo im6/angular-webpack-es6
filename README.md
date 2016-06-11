@@ -1,8 +1,34 @@
-This is the seed project for the angular 1.x written by es6 and bundled by webpack, techs are used as follows:
-1, angular 1.5
-2, ui-router
-3, webpack, followed by some necessary loaders
-4, es6
-5, less
-6, jade
-7, angular-material UI template
+angular-webpack-es6 slingshot
+=========================
+
+A starter kit for angular with es6.
+Performant and flexible.
+
+[![build status](http://img.shields.io/travis/reactjs/react-redux/master.svg?style=flat-square)](http://www.guozj.com)
+[![npm downloads](http://peterborgs.co.uk/images/AngularJS-logo.png)](https://www.angularjs.com)
+
+## cli example
+
+```
+npm run dev
+npm run build
+npm run watch
+```
+
+## Highlight
+
+- angular 1.5
+- ui-router
+- webpack, followed by some necessary loaders
+- es6/es2015
+- jade
+- angular-material UI
+
+## How Does It Work?
+
+Clone the repo to your local, make some customize if you'd like.
+Enjoy!
+
+## License
+
+MIT
