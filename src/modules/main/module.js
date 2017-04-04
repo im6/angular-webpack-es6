@@ -6,7 +6,6 @@ import '../../style/global.less';
 
 //============== css reference END
 
-
 import angular from 'angular';
 import uiRouter from 'angular-ui-router';
 import ngMaterial from 'angular-material';

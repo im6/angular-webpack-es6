@@ -70,9 +70,9 @@ module.exports = {
         extensions: ['','.js']
     },
     module: {
-        preLoaders: [
-            {test: /\.js$/, loader: "eslint-loader", exclude: /node_modules/}
-        ],
+        //preLoaders: [
+        //    {test: /\.js$/, loader: "eslint-loader", exclude: /node_modules/}
+        //],
         loaders:[
             { test: /\.jsx?$/,exclude: /node_modules/,loaders: ['babel?presets[]=es2015'] },
             //{test: /\.js$/, loader: "eslint-loader", exclude: /node_modules/},
@@ -85,9 +85,9 @@ module.exports = {
         ]
     },
     plugins: wPlugin,
-    eslint: {
-        configFile: './.eslintrc'
-    }
+    //eslint: {
+    //    configFile: './.eslintrc'
+    //}
 };
 
 

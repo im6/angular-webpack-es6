@@ -1,7 +1,7 @@
 
 import angular from 'angular';
 
-export default class mainController {
+class mainController {
     constructor($scope){
         angular.merge($scope,{
             test: "test data is here",
@@ -14,3 +14,5 @@ export default class mainController {
 
 
 mainController.$inject = ['$scope'];
+
+export default mainController;
