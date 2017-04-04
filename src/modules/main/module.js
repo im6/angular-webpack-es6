@@ -14,7 +14,7 @@ import ngMaterial from 'angular-material';
 
 import state from './config/state';
 import ctr from './controllers/AppController';
-import Main1Service from './services/Main1Service';
+import mainService from './services/mainService';
 import helloWorld from './directives/HelloWorld';
 
 //================= Main Component definition END
@@ -24,7 +24,7 @@ export default angular.module(AppName, [
     ngMaterial
 ])
     .config(state)
-    .service('Main1Service', Main1Service)
+    .service('mainService', mainService)
     .controller("AppController", ctr)
     .directive("helloWorld", helloWorld)
     .name;
