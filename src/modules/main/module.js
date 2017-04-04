@@ -13,7 +13,7 @@ import ngMaterial from 'angular-material';
 // ================ module include END
 
 import state from './config/state';
-import ctr from './controllers/AppController';
+import appController from './controllers/appController';
 import mainService from './services/mainService';
 import helloWorld from './directives/HelloWorld';
 
@@ -25,6 +25,6 @@ export default angular.module(AppName, [
 ])
     .config(state)
     .service('mainService', mainService)
-    .controller("AppController", ctr)
+    .controller("appController", appController)
     .directive("helloWorld", helloWorld)
     .name;
