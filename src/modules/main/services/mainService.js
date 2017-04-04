@@ -1,4 +1,4 @@
-export default ['$rootScope', ($rootScope) =>{
+const mainService = ['$rootScope', ($rootScope) =>{
     $rootScope.rootName = "This is the root";
     let output = {
         do1: ()=> {
@@ -9,4 +9,4 @@ export default ['$rootScope', ($rootScope) =>{
     return output;
 }];
 
-
+export default mainService;

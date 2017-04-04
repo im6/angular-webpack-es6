@@ -1,10 +1,8 @@
 import mainView from '../views/main.jade';
-import mainCtrl from '../controllers/AppController.js';
-
+import appController from '../controllers/appController.js';
 
 import sub1View from '../../sub1/views/main.jade';
 import sub1Ctrl from '../../sub1/controllers/MainController.js';
-//===== import the views for each state
 
 
 const state = ($stateProvider, $urlRouterProvider) => {
@@ -12,7 +10,7 @@ const state = ($stateProvider, $urlRouterProvider) => {
       .state('main', {
         url: "/",
         template: mainView,
-        controller: mainCtrl,
+        controller: appController,
         onEnter: ["$rootScope", "$stateParams", ($rootScope, $stateParams) => {
         }]
       })
@@ -28,7 +26,7 @@ const state = ($stateProvider, $urlRouterProvider) => {
         console.log("Could not find " + $location.$$path);
         $location.path('/');
     });
-}
+};
 
 state.$inject =[
     '$stateProvider',

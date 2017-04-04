@@ -1,4 +1,3 @@
-
 const AppName = "app";
 
 import 'angular-material/angular-material.min.css';
@@ -23,8 +22,8 @@ export default angular.module(AppName, [
     uiRouter,
     ngMaterial
 ])
-    .config(state)
-    .service('mainService', mainService)
-    .controller("appController", appController)
-    .directive("helloWorld", helloWorld)
-    .name;
+  .config(state)
+  .service('mainService', mainService)
+  .controller("appController", appController)
+  .directive("helloWorld", helloWorld)
+  .name;
