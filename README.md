@@ -1,4 +1,4 @@
-angular-webpack-es6 slingshot [![build status](http://img.shields.io/travis/reactjs/react-redux/master.svg?style=flat-square)](http://www.guozj.com)
+AngularJs(1.x)-webpack-es6 slingshot [![build status](http://img.shields.io/travis/reactjs/react-redux/master.svg?style=flat-square)](http://www.guozj.com)
 =========================
 
 A starter kit for angular with es6.
